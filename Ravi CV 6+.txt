@@ -1,0 +1,95 @@
+Ravi Patel
+Sr. Mobile Developer (EXP 6+YR)
+
+Email ID :- ravipatel84184@gmail.com
+Mobile :- +91 70413 84184
+
+Sr. Mobile Developer with 6+ years of experience in building scalable cross-platform
+mobile apps using Flutter and Dart. Expert in custom widgets, clean architecture,
+API integrations, and performance optimization. Passionate about collaborating with
+teams to deliver user-centric solutions and drive innovation in mobile development.
+
+EXPERIENCE
+Kaamlo Platform PVT LTD
+Sr. Mobile Developer (Jan 2022 - Now)
+
+XongoLab Technologies LLP
+Flutter Developer (July 2020 - Jan 2022)
+
+ShreejiWeb Creation. Ahmedabad
+Flutter Developer (Jan 2018 - July 2020)
+
+EDUCATION
+Gromore Faculty Of Engineering, HMT
+BE (Computer Engineering) (April 2018)
+
+Shree J S Maheta, Dhansura
+HSC (May 2013)
+
+Shree Odhav Vidhya Mandir, Dhansura
+SSC (Mar 2010)
+
+SKILLS
+Top Skills
+Flutter Development
+- Full Life Cycle, Android SDK, Google Map
+- GetX, BloC, Provider, MobX
+- Hive, Sqlite, Firebase
+- Dio, Json, Gson
+- Hybrid App/ Dart
+- CI/CD: Fastlane, GitHub Actions
+- Google Maps, Push Notifications, In-app Purchases
+
+Tools & Technology
+Core Java, Dart, Kotlin
+PHP & MySQL, XAMPP
+Git, GitHub
+
+Tools & Technology
+Problem Solving
+
+Designing Skills
+Adobe Photoshop, Adobe XD, Sketch
+
+Other Skills
+Android Custom Library
+
+PROJECTS
+#1. OTU Job portal
+A mobile app connecting unorganized workers
+to organized employment, featuring job search,
+profile management, and skill-based job matching.
+#2. OTU HRPlus
+A comprehensive HRMS app for managing
+employee attendance, payroll, and leave,
+integrated with Firebase for real-time updates
+and notifications.
+#3. CoinCrowd
+A crypto portfolio management app for tracking
+investments across multiple cryptocurrencies,
+with real-time data synchronization and portfolio
+management.
+#4. Scho App
+SchoApp offers collaborative features for
+managing pupils, students, parents and
+overall administration of the school.
+#5. Viit
+Designed to be simple and intuitive, expense
+tracker app will help you manage, report and
+always be aware of what is happening in your
+own wallet.
+#6. Weeda Social App
+This is a social media app.User can create post
+and chat with his friends.they also recommend
+shope or company to his friends.
+
+ABOUT
+Address - Gandhinagar, Gujarat
+Birthday - 07 - April - 1996
+Email - ravipatel84184@gmail.com
+Contact - +91 70413 84184
+LinkedIn www.linkedin.com/in/ravi-patel-99461014a
+GitHub - https://github.com/ravi84184
+Portfolio https://ravi84184.github.io/ravi84184/
+
+

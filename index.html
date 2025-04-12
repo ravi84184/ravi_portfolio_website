@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Patel - Flutter Developer</title>
+    <meta name="description" content="Portfolio of Ravi Patel, a Flutter Developer with 6+ years of experience">
+    <meta name="keywords" content="Flutter Developer, Mobile App Development, Portfolio">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-icon">
+                <i class="fas fa-code"></i>
+            </div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#home">
+                        <span class="logo-text">Ravi Patel</span>
+                        <span class="logo-subtext">Flutter Developer</span>
+                    </a>
+                </div>
+                <div class="nav-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <div class="theme-toggle">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                        <a href="resume.pdf" class="btn primary small" download>
+                            <span>Download CV</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="progress-bar"></div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content" data-aos="fade-up">
+                    <div class="hero-text">
+                        <h1>Ravi Patel</h1>
+                        <h2>Sr. Mobile Developer (6+ Years Experience)</h2>
+                        <p>Expert in building scalable cross-platform mobile apps using Flutter and Dart. Specialized in custom widgets, clean architecture, API integrations, and performance optimization.</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn primary">Contact Me</a>
+                            <a href="#projects" class="btn secondary">View Projects</a>
+                        </div>
+                    </div>
+                    <div class="hero-image" data-aos="fade-left">
+                        <div class="image-container">
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                                 alt="Ravi Patel - Flutter Developer"
+                                 onerror="this.onerror=null; this.src='https://via.placeholder.com/500x500?text=Ravi+Patel'">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <h3>6+</h3>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat">
+                                <h3>50+</h3>
+                                <p>Projects</p>
+                            </div>
+                            <div class="stat">
+                                <h3>30+</h3>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-shape"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a Senior Mobile Developer with 6+ years of experience in Flutter and Dart development. My expertise lies in creating scalable cross-platform mobile applications with a focus on clean architecture and performance optimization.</p>
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Gandhinagar, Gujarat</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-birthday-cake"></i>
+                                <span>07 April 1996</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>ravipatel84184@gmail.com</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 70413 84184</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Flutter Development</h3>
+                        <ul>
+                            <li>Full Life Cycle Development</li>
+                            <li>Android SDK & Google Maps</li>
+                            <li>GetX, BloC, Provider, MobX</li>
+                            <li>Hive, Sqlite, Firebase</li>
+                            <li>Dio, Json, Gson</li>
+                            <li>CI/CD: Fastlane, GitHub Actions</li>
+                            <li>Google Maps Integration</li>
+                            <li>Push Notifications</li>
+                            <li>In-app Purchases</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Technology</h3>
+                        <ul>
+                            <li>Core Java</li>
+                            <li>Dart</li>
+                            <li>Kotlin</li>
+                            <li>PHP & MySQL</li>
+                            <li>XAMPP</li>
+                            <li>Git, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Designing Skills</h3>
+                        <ul>
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe XD</li>
+                            <li>Sketch</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Sr. Mobile Developer</h3>
+                            <h4>Kaamlo Platform PVT LTD</h4>
+                            <span class="date">Jan 2022 - Present</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Flutter Developer</h3>
+                            <h4>XongoLab Technologies LLP</h4>
+                            <span class="date">July 2020 - Jan 2022</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Flutter Developer</h3>
+                            <h4>ShreejiWeb Creation, Ahmedabad</h4>
+                            <span class="date">Jan 2018 - July 2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Featured Projects</h2>
+                    <p>Explore my latest work and contributions</p>
+                </div>
+
+                <div class="projects-container">
+                    <!-- Project 1 -->
+                    <div class="project-item" data-category="mobile" data-aos="fade-up">
+                        <div class="project-preview">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                                     alt="OTU Job Portal"
+                                     onerror="this.onerror=null; this.src='https://via.placeholder.com/500x300?text=OTU+Job+Portal'">
+                                <div class="project-overlay">
+                                    <div class="project-buttons">
+                                        <a href="#" class="btn primary">
+                                            <i class="fas fa-eye"></i>
+                                            View Project
+                                        </a>
+                                        <a href="#" class="btn secondary" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag flutter">Flutter</span>
+                                <span class="tag firebase">Firebase</span>
+                                <span class="tag maps">Google Maps</span>
+                            </div>
+                            <h3>OTU Job Portal</h3>
+                            <p>A mobile app connecting unorganized workers to organized employment, featuring job search, profile management, and skill-based job matching.</p>
+                            <div class="project-meta">
+                                <span class="date">2023</span>
+                                <span class="category">Mobile App</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-item" data-category="mobile" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-preview">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                                     alt="OTU HRPlus"
+                                     onerror="this.onerror=null; this.src='https://via.placeholder.com/500x300?text=OTU+HRPlus'">
+                                <div class="project-overlay">
+                                    <div class="project-buttons">
+                                        <a href="#" class="btn primary">
+                                            <i class="fas fa-eye"></i>
+                                            View Project
+                                        </a>
+                                        <a href="#" class="btn secondary" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag flutter">Flutter</span>
+                                <span class="tag firebase">Firebase</span>
+                                <span class="tag realtime">Real-time</span>
+                            </div>
+                            <h3>OTU HRPlus</h3>
+                            <p>A comprehensive HRMS app for managing employee attendance, payroll, and leave, integrated with Firebase for real-time updates and notifications.</p>
+                            <div class="project-meta">
+                                <span class="date">2023</span>
+                                <span class="category">HRMS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-item" data-category="mobile" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-preview">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                                     alt="CoinCrowd"
+                                     onerror="this.onerror=null; this.src='https://via.placeholder.com/500x300?text=CoinCrowd'">
+                                <div class="project-overlay">
+                                    <div class="project-buttons">
+                                        <a href="#" class="btn primary">
+                                            <i class="fas fa-eye"></i>
+                                            View Project
+                                        </a>
+                                        <a href="#" class="btn secondary" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag flutter">Flutter</span>
+                                <span class="tag crypto">Crypto API</span>
+                                <span class="tag realtime">Real-time</span>
+                            </div>
+                            <h3>CoinCrowd</h3>
+                            <p>A crypto portfolio management app for tracking investments across multiple cryptocurrencies, with real-time data synchronization and portfolio management.</p>
+                            <div class="project-meta">
+                                <span class="date">2023</span>
+                                <span class="category">Finance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-filters" data-aos="fade-up">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="flutter">Flutter</button>
+                </div>
+
+                <div class="view-more" data-aos="fade-up">
+                    <a href="#" class="btn primary">
+                        View All Projects
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h3>BE (Computer Engineering)</h3>
+                        <h4>Gromore Faculty Of Engineering, HMT</h4>
+                        <span class="date">April 2018</span>
+                    </div>
+                    <div class="education-item">
+                        <h3>HSC</h3>
+                        <h4>Shree J S Maheta, Dhansura</h4>
+                        <span class="date">May 2013</span>
+                    </div>
+                    <div class="education-item">
+                        <h3>SSC</h3>
+                        <h4>Shree Odhav Vidhya Mandir, Dhansura</h4>
+                        <span class="date">March 2010</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="blog" id="blog">
+            <div class="container">
+                <div class="blog-header">
+                    <h2>Latest Articles</h2>
+                    <p>Insights and tutorials on Flutter development, mobile app architecture, and best practices</p>
+                </div>
+                <div class="blog-grid" id="blog-posts">
+                    <!-- Blog posts will be dynamically inserted here -->
+                    <div class="blog-loading">
+                        <div class="loader-icon">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </div>
+                        <p>Loading articles...</p>
+                    </div>
+                </div>
+                <div class="blog-pagination" id="blog-pagination">
+                    <!-- Pagination will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>ravi.patel@example.com</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-phone"></i>
+                            <h3>Phone</h3>
+                            <p>+91 98765 43210</p>
+                        </div>
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Location</h3>
+                            <p>Ahmedabad, Gujarat, India</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form" data-aos="fade-left">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-brand">
+            <a href="#" class="footer-logo">
+                <i class="fas fa-code"></i>
+                <span>Ravi Patel</span>
+            </a>
+            <p>Senior Flutter Developer | Mobile App Specialist | Tech Enthusiast</p>
+        </div>
+
+        <div class="footer-grid">
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="#about"><i class="fas fa-user"></i> About</a>
+                    <a href="#skills"><i class="fas fa-cogs"></i> Skills</a>
+                    <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+                    <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
+                    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ravipatel84184@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 70413 84184</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Gandhinagar, Gujarat, India</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="https://github.com/ravipatel84184" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ravi-patel-84184" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://medium.com/@ravi-patel" target="_blank" title="Medium"><i class="fab fa-medium"></i></a>
+                    <a href="https://wa.me/917041384184" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://t.me/ravipatel84184" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ravi Patel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
